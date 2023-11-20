@@ -1,0 +1,219 @@
+@import url(https://fonts.googleapis.com/css?family=Jost:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+@import url(https://fonts.googleapis.com/css?family=Zen+Tokyo+Zoo:regular);
+
+body {
+    background-color: #00214A;
+    font-family: 'Jost';
+    font-size: 20px;
+    color: #ffffff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    width: 1276px;
+    margin: auto;
+}
+
+a {
+    text-decoration: 0;
+    color: #ffffff;
+}
+
+span {
+    font-size: 16px;
+    color: #ffffff80;
+    ;
+}
+
+header {
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    width: 1276px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu ul>li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.menu ul>li:not(:first-child) {
+    margin-left: 100px;
+}
+
+.auth {
+    background-color: #D70170;
+    padding: 10px 30px;
+    border-radius: 18px;
+}
+
+.poster {
+    width: 1276px;
+    height: 550px;
+    margin: auto;
+}
+
+.barbie {
+    background-image: url(../img/barbie.png);
+}
+
+.vverx {
+    background-image: url(../img/vverx.png);
+    display: flex;
+    align-items: center;
+}
+
+.phoenix {
+    background-image: url(../img/phoenix.png);
+    display: flex;
+    align-items: center;
+}
+
+.content_poster {
+    width: 416px;
+    margin-left: 58px;
+    margin-top: 22px;
+}
+
+.podpiska_butt {
+    font-size: 24px;
+    font-weight: 700;
+    padding: 18px 20px;
+    border-radius: 18px;
+}
+
+.barbie_butt {
+    background-color: #D70170;
+}
+
+.vverx_butt {
+    background-color: #00214A;
+}
+
+.name_sec {
+    font-family: 'Zen Tokyo Zoo';
+    background: linear-gradient(90deg, #EA24B5 1.66%, #0D3F7C 58.66%, #05BBEB 98.76%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 50px 0px;
+}
+
+.cards_new_films {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.category {
+    margin: auto;
+}
+
+.rank {
+    position: absolute;
+    z-index: 1;
+    padding: 3px 13px;
+    background-color: #724E94;
+    border-radius: 18px;
+    margin: 7px;
+}
+
+.video_trailer {
+    width: 678px;
+    height: 460px;
+    border-radius: 20px;
+}
+
+.name_film {
+    color: #D60170;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.description_film {
+    margin-left: 35px;
+}
+
+.trailer_film {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.small_description {
+    display: flex;
+    margin-top: 9px;
+    margin-bottom: 33px;
+    font-weight: 700;
+    color: #ffffff80;
+}
+
+.small_description p:not(:first-child) {
+    margin-left: 22px;
+    color: #ffffff;
+}
+
+.description {
+    width: 563px;
+    font-weight: 400;
+}
+
+.nazad {
+    margin: 30px 0px;
+}
+
+.reccomend {
+    margin-bottom: 50px;
+}
+
+.forms {
+    width: 450px;
+    margin: auto;
+    text-align: center;
+}
+
+.input_reg {
+    width: 450px;
+    height: 60px;
+    border-radius: 18px;
+    border: 0;
+    margin-bottom: 27px;
+}
+
+.forms input::placeholder {
+    padding-left: 33px;
+    font-family: 'Jost';
+}
+
+.button_reg {
+    border-radius: 18px;
+    background: #D60170;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    border: 0;
+    padding: 20px;
+    margin: 20px 0px;
+}
+
+.checkbox {
+    width: 10px;
+}
+
+.delete_serials {
+    z-index: 1;
+    background-color: #05BBEB;
+}
+
+
